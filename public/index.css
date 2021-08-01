@@ -1,0 +1,33 @@
+:root {
+  --coloured_section: #666;
+  --coloured_section_font: #DDD;
+}
+
+#landing, #about, #projects {
+  height: 100vh;
+}
+
+#landing, #projects {
+  background-color: var(--coloured_section);
+  color: var(--coloured_section_font);
+}
+
+#landing h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+#social {
+  height: 70vh;
+  width: 4vw;
+  position: fixed;
+  top: 15vh;
+  left: 0;
+  border: 2px solid #000;
+  border-radius: 0 20px 20px 0;
+}
+
+#footer {
+  text-align: center;
+  color:#666;
+}
