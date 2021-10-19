@@ -15,6 +15,9 @@ const Social = () => {
     setScroll(-100 + ScrollPercent);
   };
   window.addEventListener("scroll", onScroll);
+  window.addEventListener("load", () => {
+    setScroll(-100);
+  })
 
   return (
     <div className={classes.container}>
