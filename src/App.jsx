@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 import Landing from "./Sections/Landing";
 import Social from "./Components/Socials/Social";
 import About from "./Sections/About";
