@@ -8,7 +8,8 @@ body {
   padding: 0;
 }
 
-#landing, #about, #projects {
+section {
+  padding-left: 4vw;
   height: 100vh;
 }
 
@@ -26,17 +27,8 @@ body {
   font-weight: 700;
 }
 
-#social {
-  height: 70vh;
-  width: 4vw;
-  position: fixed;
-  top: 15vh;
-  left: 0;
-  border: 2px solid #000;
-  border-radius: 0 20px 20px 0;
-}
-
 #footer {
+  height: unset;
   text-align: center;
   color:#666;
 }

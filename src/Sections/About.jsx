@@ -1,12 +1,11 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 
 const About = () => {
 
     return (
-        <Grid id="about">
+        <section id="about">
             <h1>About me</h1>
-        </Grid>
+        </section>
     );
 }
 

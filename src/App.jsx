@@ -1,6 +1,6 @@
 import React from "react";
 import Landing from "./Sections/Landing";
-import Social from "./Sections/Social";
+import Social from "./Components/Socials/Social";
 import About from "./Sections/About";
 import Projects from "./Sections/Projects";
 import Footer from "./Sections/Footer";
