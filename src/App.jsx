@@ -1,9 +1,9 @@
 import React from "react";
-import Landing from "./Landing";
-import Social from "./Social";
-import About from "./About";
-import Projects from "./Projects";
-import Footer from "./Footer";
+import Landing from "./Sections/Landing";
+import Social from "./Sections/Social";
+import About from "./Sections/About";
+import Projects from "./Sections/Projects";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (

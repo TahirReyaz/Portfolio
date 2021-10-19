@@ -3,6 +3,11 @@
   --coloured_section_font: #DDD;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #landing, #about, #projects {
   height: 100vh;
 }
@@ -10,6 +15,10 @@
 #landing, #projects {
   background-color: var(--coloured_section);
   color: var(--coloured_section_font);
+}
+
+#landing {
+  background-color: #000;
 }
 
 #landing h1 {
