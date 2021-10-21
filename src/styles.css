@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins";
 }
 
 section {
@@ -25,6 +26,13 @@ section {
 #landing h1 {
   font-size: 6rem;
   font-weight: 700;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #footer {
